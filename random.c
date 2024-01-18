@@ -1,5 +1,5 @@
-#include <stdio.h>
+#include <stdlib.h>
 
 int randchar() {
-	return (rand() %26) + 65;
+    return (rand() % 26) + 65;
 }
